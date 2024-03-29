@@ -13,6 +13,7 @@ Generates cover art for Jellyfin library in batch
 **Run `coverart` in terminal without any arguments (flags) to initiate interactive prompts.**
 
 ![demo preview](https://raw.githubusercontent.com/Tetrax-10/jellyfin-cover-art-generator/main/assets/preview.png)
+
 **Note:** This Screenshot reflects initial release and new changes may not be represented.
 
 </br>
