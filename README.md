@@ -4,9 +4,16 @@ Generates cover art for Jellyfin library in batch
 
 ## Demo
 
-<img src="https://image.tmdb.org/t/p/original/lzWHmYdfeFiMIY4JaMmtR7GEli3.jpg" style="width: 400px;">
-
-<img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-cover-art-generator/main/assets/Movies-dune.jpg" style="width: 400px;">
+<table>
+  <tr align="center">
+    <td><img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-cover-art-generator/main/assets/Movies-dune.jpg" style="width: 400px;"></td>
+    <td><img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-cover-art-generator/main/assets/TV Shows-chernobyl.jpg" style="width: 400px;"></td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-cover-art-generator/main/assets/Music.jpg" style="width: 400px;"></td>
+    <td><img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-cover-art-generator/main/assets/xxx.jpg" style="width: 400px;"></td>
+  </tr>
+</table>
 
 </br>
 
