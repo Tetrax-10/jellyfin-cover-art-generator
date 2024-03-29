@@ -5,7 +5,3 @@ Output
 dev
 __pycache__
 *.txt
-*.jpg
-*.jpeg
-*.png
-*.webp
