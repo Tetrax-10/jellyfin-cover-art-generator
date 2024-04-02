@@ -32,7 +32,7 @@ You can use this as a CLI by just giving a valid argument(s).
 The above movies cover art can be created with this command.
 
 ```powershell
-PS Downloads> coverart -p "dune.jpg" -t "Movies"
+coverart -p "dune.jpg" -t "Movies"
 ```
 
 ### Arguments
@@ -55,7 +55,7 @@ PS Downloads> coverart -p "dune.jpg" -t "Movies"
   <tr align="center">
     <td>-o</td>
     <td>--out</td>
-    <td align="left">Output folder for generated previews</td>
+    <td align="left">Output folder for generated cover arts</td>
     <td>CWD</td>
     <td>string</td>
   </tr>
@@ -95,7 +95,7 @@ PS Downloads> coverart -p "dune.jpg" -t "Movies"
 If you want to run this as a CLI without providing or changing default arguments then just run
 
 ```sh
-preview -cli
+coverart -cli
 ```
 
 </br>
@@ -122,7 +122,7 @@ python cover_art.py <args>
 pyinstaller cover_art.spec
 ```
 
-Make sure to add your "dist" folder to the PATH so that when you run preview, it refers to your "dist" executable. Additionally, also ensure that the path of the installed "coverart.exe" is removed during development.
+Make sure to add your "dist" folder to the PATH so that when you run coveraet, it refers to your "dist" executable. Additionally, also ensure that the path of the installed "coverart.exe" is removed during development.
 
 The installer is compiled with the [Inno Setup Compiler](https://jrsoftware.org/isdl.php), and there's no need to perform this step during the development of Jellyfin Cover Art Generator, as it is only used for distribution
 
