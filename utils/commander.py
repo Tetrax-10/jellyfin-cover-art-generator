@@ -51,7 +51,7 @@ def init():
             readline.parse_and_bind("tab: complete")
             readline.set_completer(pathCompleter)
 
-            input_path = input(colored(f"Path of the image or folder ({colored(default_path, 'yellow')}): ", "blue")).strip()
+            input_path = input(colored(f"Path of the image or folder ({colored(default_path, 'yellow')}{colored('): ', 'blue')}", "blue")).strip()
             args.path = glob.get_abs_path(glob.correct_path(input_path)) if input_path != "" else default_path
 
             if glob.is_file(args.path):
