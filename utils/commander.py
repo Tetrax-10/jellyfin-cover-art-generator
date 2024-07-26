@@ -38,16 +38,17 @@ def init():
         sys.exit()
 
     if not any(value is not None and value is not False for value in vars(args).values()):
+
         def pathCompleter(text, state):
             matches = []
-            for x in globpy.glob(text + '*'):
+            for x in globpy.glob(text + "*"):
                 if not os.path.isfile(x):
                     x += "/"
                 matches.append(x.replace("\\", "/"))
             return matches[state]
 
         try:
-            readline.set_completer_delims('\t')
+            readline.set_completer_delims("\t")
             readline.parse_and_bind("tab: complete")
             readline.set_completer(pathCompleter)
 
@@ -66,10 +67,10 @@ def init():
             input_title = input(colored(f"Title: ", "blue"))
             args.title = input_title if input_title != "" else default_title
 
-            os.system('cls')
+            os.system("cls")
         except Exception as err:
             print()
-            if ("invalid literal for int()" in str(err)):
+            if "invalid literal for int()" in str(err):
                 print(colored("Invalid input type, That field only accepts numbers", "red"))
             else:
                 print(colored("Invalid input type", "red"))
@@ -85,9 +86,9 @@ def init():
 
     args.version = version
 
-    if (args.samepath):
-        if(default_out != args.out):
-            if(glob.is_abs(args.out)):
+    if args.samepath:
+        if default_out != args.out:
+            if glob.is_abs(args.out):
                 print(colored("Outpath should be a relative path when using --samepath", "red"))
                 exit_program()
         else:

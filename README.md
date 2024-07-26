@@ -122,7 +122,7 @@ python cover_art.py <args>
 pyinstaller cover_art.spec
 ```
 
-Make sure to add your "dist" folder to the PATH so that when you run coveraet, it refers to your "dist" executable. Additionally, also ensure that the path of the installed "coverart.exe" is removed during development.
+Make sure to add your "dist" folder to the PATH so that when you run coverart, it refers to your "dist" executable. Additionally, also ensure that the path of the installed "coverart.exe" is removed during development.
 
 The installer is compiled with the [Inno Setup Compiler](https://jrsoftware.org/isdl.php), and there's no need to perform this step during the development of Jellyfin Cover Art Generator, as it is only used for distribution
 
