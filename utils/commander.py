@@ -58,7 +58,7 @@ def init():
                 default_out = glob.join_path(glob.get_dirname(args.path), "cover-arts")
             else:
                 default_out = glob.join_path(args.path, "cover-arts")
-            input_out = input(colored(f"Output folder ({colored(default_out, 'yellow')}): ", "blue")).strip()
+            input_out = input(colored(f"Output folder ({colored(default_out, 'yellow')}{colored('): ', 'blue')}", "blue")).strip()
             args.out = glob.get_abs_path(glob.correct_path(input_out)) if input_out != "" else default_out
 
             readline.set_completer(None)
