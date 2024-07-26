@@ -12,7 +12,7 @@ shared = {"args": None}
 
 
 def init():
-    version = "1.0"
+    version = "1.1"
 
     default_path = glob.get_cwd()
     default_out = glob.join_path(glob.get_cwd(), "cover-arts")
