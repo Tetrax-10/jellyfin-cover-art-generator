@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "Cover Art"
-#define MyAppVersion "1.2"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "Tetrax-10"
 #define MyURL "https://github.com/Tetrax-10"
 #define MyAppURL "https://github.com/Tetrax-10/jellyfin-cover-art"
