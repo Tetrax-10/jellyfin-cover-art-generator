@@ -128,16 +128,9 @@ The installer is compiled with the [Inno Setup Compiler](https://jrsoftware.org/
 
 </br>
 
-### Known bugs
-
-1. When this program is installed and uninstalled it leaves this string ";;" in PATH environmental variable, it's not an issue as it doesn't affect the env vars but its a bloat, So please help me fix this as I'm not good with Inno Setup Compiler
-
-</br>
-
 ### Assist required
 
 1. Help me to build/test executable for `linux` and `mac os`.
-2. Help me fix the `known bugs`.
 
 </br>
 

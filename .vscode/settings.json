@@ -1,7 +1,6 @@
 {
     "files.exclude": {
         "**/build": true,
-        "**/dist": true,
-        "**/inno": true
+        "**/dist": true
     }
 }
