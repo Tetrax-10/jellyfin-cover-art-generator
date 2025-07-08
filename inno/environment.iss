@@ -1,3 +1,4 @@
+[Code]
 const
   EnvironmentKey = 'SYSTEM\CurrentControlSet\Control\Session Manager\Environment';
   WM_SETTINGCHANGE = $001A;
